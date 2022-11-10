@@ -1,0 +1,90 @@
+@media screen and (max-width: 600px){
+    .container{
+        padding: 1rem 2rem;
+    }
+    .nav{
+        padding: 3rem 0
+    }
+    .flex div img{
+        width: 40%;
+    } 
+    nav div:nth-child(2) ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        margin: 1.5rem 0 0 -24.3rem;
+        width: 100%;
+        color: white;
+    }
+    .menu{
+        background-color: #120a8f;
+        padding: 2rem 1rem 2rem 1rem;
+        cursor: pointer;
+        height: 300px;
+    }
+    .menu-burger{
+        background: #120a8f;
+        width: 45px;
+        height: 3px;
+        margin: 1rem 0;
+        transition: all .05s ease-in-out;    
+    }
+    .menu-burger::before,
+.menu-burger::after
+{
+    content: "";
+    background: #120a8f;
+    width:45px;
+    height: 3px;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+.menu-burger::before{
+    transform: translateY(-10px);
+}
+.menu-burger::after{
+    transform: translatey(10px);
+}
+.flex-1{
+        flex-direction: column;
+}
+    .heading{
+        margin-top: 5rem;
+    }
+    .img{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column-reverse
+    }
+    .about-text{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .first-service{
+        margin: 3rem 0 0 0.3rem;
+    }
+    .service{
+        width: 400px;
+        height: fit-content;
+    }
+    .counter{
+        padding: 0
+    }
+    .grow-img img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .footer .container .logo img, .footer .container .logo p{
+        width: 300px;
+        margin-left: -10rem;
+    } 
+    .footer .container .flex .p2{
+        margin-left: -15rem;
+        margin-top: 1rem;
+    }
+    .footer .container .connect{
+        margin-left: -0.4rem;
+        margin-top: 2rem;
+    }
+}
