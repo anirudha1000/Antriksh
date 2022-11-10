@@ -89,8 +89,11 @@
     }
 }
 @media screen and (max-width: 400px){
+    
     .menu-burger{
         width: 25px;    
+        margin-top: -1.3rem;
+        margin-left: 16rem;
     }
     .menu-burger::before,
 .menu-burger::after{
@@ -98,19 +101,16 @@
 }
 .footer .container .logo img, .footer .container .logo p{
     width: 300px;
-    margin: 1rem 0 0 -9rem ;
+    margin: 1rem 0 0 -8rem ;
 } 
 .footer .container .flex .p2{
-    margin-left: -13rem;
+    margin-left: -11.5rem;
 }
 .footer .container .connect{
     margin-left: -1rem;
 }
 }
 @media screen and (max-width: 350px){ 
-    .main-menu-burger{
-        
-    }
     .menu-burger{
         width: 30px;    
         margin-top: -1.3rem;
