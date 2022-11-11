@@ -29,3 +29,11 @@ window.onload= function () {
      plusSlides(1);
  }, 3000);
  }
+function menu() {
+  var x = document.getElementById("menu");
+  if(x.style.transform === "translateX(100%)"){
+    x.style.transform = "translateX(45%)";
+  }else {
+    x.style.transform = "translateX(100%)";
+  }
+}
